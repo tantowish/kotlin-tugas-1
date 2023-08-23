@@ -15,10 +15,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         with(binding){
-            daftar.setOnClickListener{
+            hadir.setOnClickListener{
                 Toast.makeText(this@MainActivity, "Hello "+name.editableText, Toast.LENGTH_LONG).show()
             }
-            tidakDaftar.setOnClickListener{
+            tidakHadir.setOnClickListener{
                 Toast.makeText(this@MainActivity, "Mohon konfirmasi ke Dosen", Toast.LENGTH_LONG).show()
             }
         }
