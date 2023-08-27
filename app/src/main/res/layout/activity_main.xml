@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".MainActivity"
-    android:background="@drawable/background"
+    android:background="@drawable/aqua_skyline"
     >
 
     <ImageView
@@ -115,9 +115,10 @@
         <com.google.android.material.button.MaterialButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/tosca"
+            android:backgroundTint="@color/sky_700"
             android:text="hadir"
-            android:id="@+id/hadir"/>
+            android:id="@+id/hadir"
+            android:textColor="@color/white"/>
 
         <Space
             android:layout_width="16dp"
@@ -126,9 +127,10 @@
         <com.google.android.material.button.MaterialButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/tosca"
+            android:backgroundTint="@color/sky_700"
             android:text="Tidak Hadir"
             android:id="@+id/tidakHadir"
+            android:textColor="@color/white"
             />
 
     </LinearLayout>

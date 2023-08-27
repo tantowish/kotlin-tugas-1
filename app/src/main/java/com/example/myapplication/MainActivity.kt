@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         with(binding){
             hadir.setOnClickListener{
-                Toast.makeText(this@MainActivity, "Hello "+name.editableText, Toast.LENGTH_LONG).show()
+                Toast.makeText(this@MainActivity, "Hello "+name.text, Toast.LENGTH_LONG).show()
             }
             tidakHadir.setOnClickListener{
                 Toast.makeText(this@MainActivity, "Mohon konfirmasi ke Dosen", Toast.LENGTH_LONG).show()
